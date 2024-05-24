@@ -1,0 +1,71 @@
+h1 {
+color: teal;
+}
+
+h2 {
+color: teal;
+}
+
+body {
+margin: 0;
+background: powderblue;
+font-family: "Times New Roman", Times, serif;
+}
+
+header {
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.teaser {
+width: 100%;
+height: 300px;
+}
+
+@media screen and (min-width: 800px) {
+.teaser {
+height: 600px;
+}
+}
+
+.teaser img {
+width: 100%
+height: 100%
+object-fit: cover;
+}
+
+footer ul, nav ul {
+margin: 0;
+padding: 0;
+list-style: none;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+footer ul li a, nav ul li a {
+color: teal;
+font-weight: 600;
+padding: 24px;
+}
+
+
+nav{
+position: sticky;
+top: 0;
+backdrop-filter: blur(11px);
+}
+
+
+
+.mitte {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+section {
+max-width: 900px;
+margin-left: auto;
+margin-right: auto;
+padding: 24px;
+}
